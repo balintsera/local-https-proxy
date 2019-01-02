@@ -1,7 +1,7 @@
 generate keys:
 
 ```bash
-sudo openssl req -x509 -sha256 -newkey rsa:2048 -keyout cert.key -out cert.pem -days 1024 -nodes -subj '/CN=dev-auth.omoplanet.com'
+sudo openssldev-auth.omoplanet.com req -x509 -sha256 -newkey rsa:2048 -keyout cert.key -out cert.pem -days 1024 -nodes -subj '/CN=www.example.com'
 ```
 
 
