@@ -8,3 +8,4 @@ services:
       - ./ssl:/etc/nginx/ssl
     ports:
       - 443:443
+      - 80:80
